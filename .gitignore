@@ -1,0 +1,6 @@
+
+.venv/
+.idea/
+__pycache__/
+*.pyc
+skills_gap_report.csv

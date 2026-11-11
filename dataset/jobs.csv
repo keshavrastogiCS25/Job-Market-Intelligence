@@ -1,0 +1,9 @@
+
+job_title,company,location,salary_lpa,skills
+Data Analyst,ABC Tech,Noida,5,"Python,SQL,Excel,Power BI"
+Data Scientist,XYZ Solutions,Bangalore,9,"Python,Machine Learning,SQL"
+Business Analyst,Tech India,Delhi,6,"Excel,SQL,Power BI"
+ML Engineer,Data Labs,Bangalore,10,"Python,Machine Learning,TensorFlow"
+Java Developer,Code World,Noida,6,"Java,SQL,Spring Boot"
+Data Analyst,Info Systems,Delhi,4,"Python,Excel,SQL"
+Python Developer,ABC Tech,Noida,7,"Python,Django,SQL"
