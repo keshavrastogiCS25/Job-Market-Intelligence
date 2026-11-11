@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Page Configuration
 st.set_page_config(
-    page_title="Job Market Intelligence",
+    page_title="Job Market Intelligence & Skills Gap Analyzer | Keshav Rastogi",
     page_icon="📊",
     layout="wide"
 )
@@ -147,7 +147,12 @@ project_path = Path(__file__).resolve().parent.parent
 df = pd.read_csv(project_path / "dataset" / "jobs.csv")
 
 # Dashboard Title
-st.title("📊 Job Market Intelligence Dashboard")
+st.title("Job Market Intelligence & Skills Gap Analyzer")
+st.caption(
+    "A Python-based Job Market Intelligence tool by Keshav Rastogi. "
+    "Analyze job roles, compare technical skills, identify missing skills "
+    "and discover career development opportunities."
+)
 st.write("Analyze job market trends, salaries and skill requirements.")
 
 st.divider()
